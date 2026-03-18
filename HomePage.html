@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>StuDoe | Jouw studiepartner</title>
+
+<style>
+
+/* ===== Variabelen (hier kan je logo grootte aanpassen) ===== */
+
+:root{
+--logo-size: 120px;
+--primary-color:#2563EB;
+--background:#F8FAFC;
+}
+
+/* ===== Algemene styling ===== */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body{
+background:var(--background);
+color:#1F2937;
+}
+
+/* ===== Navbar ===== */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 8%;
+background:white;
+box-shadow:0 3px 12px rgba(0,0,0,0.06);
+}
+
+.logo img{
+height:var(--logo-size);
+width:auto;
+}
+
+/* ===== Navigatie ===== */
+
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:#374151;
+font-weight:500;
+}
+
+/* ===== Hero sectie ===== */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:90px 8%;
+}
+
+.hero-text{
+max-width:520px;
+}
+
+.hero-text h1{
+font-size:48px;
+margin-bottom:20px;
+line-height:1.2;
+}
+
+.hero-text span{
+color:var(--primary-color);
+}
+
+.hero-text p{
+font-size:18px;
+margin-bottom:30px;
+color:#4B5563;
+}
+
+/* ===== Buttons ===== */
+
+.hero-buttons button{
+padding:14px 24px;
+border:none;
+border-radius:10px;
+font-size:16px;
+cursor:pointer;
+margin-right:10px;
+}
+
+.primary{
+background:var(--primary-color);
+color:white;
+}
+
+.secondary{
+background:#E5E7EB;
+}
+
+/* ===== Features ===== */
+
+.features{
+padding:80px 8%;
+text-align:center;
+}
+
+.features h2{
+font-size:32px;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:14px;
+box-shadow:0 8px 20px rgba(0,0,0,0.05);
+}
+
+.card h3{
+margin-bottom:10px;
+color:var(--primary-color);
+}
+
+/* ===== Footer ===== */
+
+footer{
+margin-top:60px;
+padding:30px;
+text-align:center;
+background:var(--primary-color);
+color:white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+<img src="studoe-logo.png" alt="StuDoe logo">
+</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Zoek tutor</a>
+<a href="#">Word tutor</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-text">
+
+<h1>Betaalbare <span>bijles</span> van studenten</h1>
+
+<p>
+StuDoe verbindt leerlingen met gemotiveerde studenten
+voor persoonlijke en betaalbare bijles.
+</p>
+
+<div class="hero-buttons">
+<button class="primary">Vind een tutor</button>
+<button class="secondary">Word tutor</button>
+</div>
+
+</div>
+
+</section>
+
+<section class="features">
+
+<h2>Waarom StuDoe?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Betaalbaar</h3>
+<p>Goedkopere bijles dan traditionele bijlescentra.</p>
+</div>
+
+<div class="card">
+<h3>Student tutors</h3>
+<p>Gemotiveerde studenten met sterke vakkennis.</p>
+</div>
+
+<div class="card">
+<h3>Snelle matching</h3>
+<p>Vind snel een tutor die perfect bij jouw leerstijl past.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 StuDoe — Jouw studiepartner</p>
+
+</footer>
+
+</body>
+</html>
