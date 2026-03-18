@@ -1,0 +1,15 @@
+{
+  "name": "StuDoe",
+  "short_name": "StuDoe",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F8FAFC",
+  "theme_color": "#2563EB",
+  "icons": [
+    {
+      "src": "studoe-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
